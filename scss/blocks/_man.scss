@@ -1,0 +1,203 @@
+@media only screen and (max-width: 376px) {
+    .man {
+        
+        .man__top_wrapper {
+            
+            background-position: top !important;
+            background-size: 320px;
+            padding-top: 350px !important;
+        }
+        
+        .man__center_wrapper {
+            padding: 0px !important;
+            background-position: top !important;
+            background-size: 320px;
+            padding-top: 350px !important;
+        }
+        
+        .man__bottom_wrapper {
+            padding: 0px !important;
+            background-position: top !important;
+            background-size: 320px;
+            padding-top: 350px !important;
+        }
+        
+        .man__top_left_header {
+            margin-bottom: 16px !important;
+        }
+        
+        .man__item{
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 20px !important;
+        }
+        
+        .man__item:nth-child(1n){
+            flex-direction: column-reverse !important;
+        }
+        
+        .man__item_img{
+            width: 349px;
+            height: 306.1px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px){
+    .man{
+        .man__item:nth-child(1n){
+            flex-direction: column-reverse !important;
+        }
+        .man__top-wrapper{
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .man{
+        .man__item_img{
+            width: 100% !important;
+            height: 100% !important;
+        }
+       
+    }
+}
+
+.man {
+    padding-top: 150px;
+    
+    
+    .man__wrapper {}
+    
+    .man__top_wrapper {
+        
+        padding-top: 57px;
+    }
+    
+    
+    .man__list {}
+    
+    .man__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 150px;
+        
+        .man__item:nth-child(2n){
+            display: flex;
+            
+        }
+    }
+    
+    .man__item:nth-child(2n){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .man__top_left-text {
+        color: #22343D;
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .man__top_left_header {
+        color: #22343D;
+        font-family: 'Poppins';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 8px;
+        margin-bottom: 131px;
+    }
+    
+    .man__top_left-header-2 {
+        color: #22343D;
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        /* 162.5% */
+    }
+    
+    .man__top_left-text-2 {
+        color: #22343D;
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        max-width: 486px;
+        margin-top: 12px;
+        margin-bottom: 25px;
+    }
+    
+    
+    
+    .man__center_list {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 486px;
+        gap: 30px;
+    }
+    
+    .man__center_item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .man_center_img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .man__center_left_header {
+        color: #22343D;
+        font-family: "Poppins";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 8px;
+        margin-bottom: 23px;
+    }
+    
+    .man_center_text {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        max-width: 365px;
+    }
+    
+    .man__bottom_wrapper {
+        padding-top: 100px;
+        margin-top: 100px;
+        background-image: url(../../img/amico-3.svg);
+        background-repeat: no-repeat;
+        background-position: calc(90%);
+        
+        
+    }
+    
+    .man__bottom_left_header {
+        color: #22343D;
+        font-family: "Poppins";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 8px;
+        margin-bottom: 23px;
+    }
+}

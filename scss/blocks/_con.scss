@@ -1,0 +1,134 @@
+@media only screen and (max-width: 376px){
+    .con {
+        .con__header{
+            font-size: 32px !important;
+        }
+        .con__text {
+            
+            font-size: 15px !important;
+
+    }
+    .con__list {
+justify-content: center !important;
+        flex-wrap: wrap;
+    }
+    .con__item {
+        margin-bottom: 16px;
+    }
+    .carosolt{
+        margin-left: 40% !important;
+    }
+}
+}
+
+@media only screen and (max-width: 1000px){
+    .con{
+        .con__list{
+            justify-content: center !important;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .con__header{
+            display: flex;
+            justify-content: center;
+        }
+        .con__text{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.con {
+    .con__wrapper {
+        padding-top: 150px;
+    }
+
+    .con__header {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .con__text {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        /* 162.5% */
+    }
+
+    .con__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 33px;
+        padding-bottom: 64px;
+        justify-content: space-between;
+    }
+
+.con__item_header-2{
+    color: #02897A;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 166.667% */ 
+}
+
+    .con__item {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 348px;
+        align-items: center;
+        text-align: center;
+        padding: 0px 0px 40px 0px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+
+
+
+    }
+
+    .con__item_text {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        padding-top: 24px;
+    }
+
+    .con__item_text-span {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .con__item_header {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 166.667% */
+        max-width: 294px;
+        padding-top: 12px;
+    }
+    .carosolt{
+        margin-left: 47%;
+    }
+}
