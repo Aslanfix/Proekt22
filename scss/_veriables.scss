@@ -54,6 +54,61 @@ header {
 
             }
         }
+        .man {
+            .man__top_left-text{
+                color: #fff !important;
+            } 
+
+            .man__top_left-header-2{
+                 color: #fff !important;
+            }
+        
+            .man__top_left-text-2{
+                 color: #fff !important;
+            }
+            .man_center_text{
+                 color: #fff !important;
+            }
+        }
+        .can{
+            background-image: url(../img/bg-dark-2.png);
+            .can__header{
+                 color: #fff !important;
+            }
+            .can__text{
+                color: #fff !important;
+            }
+        }
+        .con{
+            .con__header{
+                 color: #fff !important;
+            }
+            .con__text{
+                color: #fff !important;
+            }
+        }
+        .we{
+            .we__header{
+                 color: #fff !important;
+            }
+            .we__text{
+                 color: #fff !important;
+            }
+        }
+        .footer{
+            background-color: #1F2E35;
+            .footer__left_img-11{
+                display: none !important;
+            }
+            .footer__left_img-11-2{
+                
+            }
+            
+            
+            
+            
+            
+        }
     }
 
 }
