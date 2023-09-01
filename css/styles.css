@@ -104,6 +104,9 @@ header {
 .dark main .man .man_center_text {
   color: #fff !important;
 }
+.dark main .man .man__bottom_left_header {
+  color: #fff !important;
+}
 .dark main .can {
   background-image: url(../img/bg-dark-2.png);
 }
@@ -126,7 +129,7 @@ header {
   color: #fff !important;
 }
 .dark main .footer {
-  background-color: #1F2E35;
+  background-color: #1F2E35 !important;
 }
 .dark main .footer .footer__left_img-11 {
   display: none !important;
