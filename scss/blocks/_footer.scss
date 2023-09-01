@@ -79,10 +79,14 @@
 }
 
 .footer {
+    .footer__left_img-11-2{
+        display: none;
+    }
     padding-top: 150px;
 
     .footer__left_img-11{
         margin-bottom: 20px;
+        display: block;
     }
     .footer__center__wrapper{
         display: flex;
