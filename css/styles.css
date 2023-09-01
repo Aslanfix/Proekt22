@@ -92,7 +92,45 @@ header {
 .dark main .for .for__item-text {
   color: white !important;
 }
-
+.dark main .man .man__top_left-text {
+  color: #fff !important;
+}
+.dark main .man .man__top_left-header-2 {
+  color: #fff !important;
+}
+.dark main .man .man__top_left-text-2 {
+  color: #fff !important;
+}
+.dark main .man .man_center_text {
+  color: #fff !important;
+}
+.dark main .can {
+  background-image: url(../img/bg-dark-2.png);
+}
+.dark main .can .can__header {
+  color: #fff !important;
+}
+.dark main .can .can__text {
+  color: #fff !important;
+}
+.dark main .con .con__header {
+  color: #fff !important;
+}
+.dark main .con .con__text {
+  color: #fff !important;
+}
+.dark main .we .we__header {
+  color: #fff !important;
+}
+.dark main .we .we__text {
+  color: #fff !important;
+}
+.dark main .footer {
+  background-color: #1F2E35;
+}
+.dark main .footer .footer__left_img-11 {
+  display: none !important;
+}
 .container {
   max-width: 1297px;
   margin: 0 auto;
