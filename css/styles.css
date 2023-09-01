@@ -74,6 +74,63 @@ header {
 .dark main {
   background-color: #1F2E35;
 }
+.dark main .at .at__header {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  max-width: 400px;
+}
+.dark main .at .at__text {
+  color: #22343D;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 458px;
+  margin-top: 18px;
+  margin-bottom: 45px;
+}
+.dark main .for {
+  padding-top: 115px;
+  background-image: url(../img/bg-dark-1.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 90px;
+}
+.dark main .for .for_header {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 529px;
+  padding-bottom: 66px;
+}
+.dark main .for .for .for__list-header {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+.dark main .for .for .for__item-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 240px;
+  margin-top: 13px;
+}
 
 .container {
   max-width: 1297px;
