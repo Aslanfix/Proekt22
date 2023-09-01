@@ -5,7 +5,8 @@ header {
 
 .dark {
     header {
-        background-color: #000;
+        background-color: #1F2E35;
+        ;
         color: white;
         * {
             color: inherit !important;
@@ -16,4 +17,7 @@ header {
             border: 1px solid white !important;
         }
     }
+    main {
+        background-color: #1F2E35;
+        }
 }
