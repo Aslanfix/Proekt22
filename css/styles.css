@@ -86,11 +86,11 @@ header {
 .dark main .for .for_header {
   color: #fff !important;
 }
-.dark main .for .for .for__list-header {
+.dark main .for .for__list-header {
   color: #fff !important;
 }
-.dark main .for .for .for__item-text {
-  color: #fff !important;
+.dark main .for .for__item-text {
+  color: white !important;
 }
 
 .container {
