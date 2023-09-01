@@ -69,6 +69,10 @@ header {
             .man_center_text{
                  color: #fff !important;
             }
+            
+            .man__bottom_left_header{
+                color: #fff !important;
+            }
         }
         .can{
             background-image: url(../img/bg-dark-2.png);
@@ -96,7 +100,7 @@ header {
             }
         }
         .footer{
-            background-color: #1F2E35;
+            background-color: #1F2E35 !important;
             .footer__left_img-11{
                 display: none !important;
             }
