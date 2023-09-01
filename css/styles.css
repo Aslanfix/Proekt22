@@ -134,6 +134,10 @@ header {
 .dark main .footer .footer__left_img-11 {
   display: none !important;
 }
+.dark main .footer .footer__left_img-11-2 {
+  display: block !important;
+}
+
 .container {
   max-width: 1297px;
   margin: 0 auto;
@@ -1274,8 +1278,12 @@ header {
 .footer {
   padding-top: 150px;
 }
+.footer .footer__left_img-11-2 {
+  display: none;
+}
 .footer .footer__left_img-11 {
   margin-bottom: 20px;
+  display: block;
 }
 .footer .footer__center__wrapper {
   display: flex;
