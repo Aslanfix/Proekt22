@@ -67,8 +67,8 @@ header {
 .dark header * {
   color: inherit !important;
 }
-.dark header button {
-  background-color: #000 !important;
+.dark header .header__btn-1 {
+  background-color: #1F2E35 !important;
   border: 1px solid white !important;
 }
 .dark main {
