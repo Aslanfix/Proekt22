@@ -95,6 +95,12 @@ header {
 .dark main .man .man__top_left-text {
   color: #fff !important;
 }
+.dark main .man .man__top_left_header {
+  color: #fff !important;
+}
+.dark main .man .man__center_left_header {
+  color: #fff !important;
+}
 .dark main .man .man__top_left-header-2 {
   color: #fff !important;
 }
