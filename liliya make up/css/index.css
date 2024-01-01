@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1297px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 1010px) {
+  .make_info-header {
+    width: 556px !important;
+    line-height: 28px !important;
+  }
+  .make_kurs-item-text {
+    width: 523px !important;
+    line-height: 31px !important;
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .make_info-header {
+    width: 556px !important;
+    line-height: 28px !important;
+  }
+  .make_kurs-item-text {
+    width: 423px !important;
+    line-height: 31px !important;
+    font-size: 17px !important;
+  }
+
+  .make_kurs-header-text {
+    font-size: 25px !important;
+    width: 100% !important;
+  }
+  .make_info-header {
+    width: 476px !important;
+  }
+}
+
+@media only screen and (max-width: 824px){
+ .make_info-header{
+  width: 430px !important;
+    font-size: 19px !important;
+ }
+}
+
+
+@media only screen and (max-width: 788px) {
+  .make_kurs-item {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  .make_info-wrapper{
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .make_info-text {
+    
+    display: flex !important;
+    justify-content: center !important;
+}
+.make_info-header {
+ padding-top: 15px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+}
+.make_kurs-item-wrap{
+ padding-top: 15px;
+}
+.make_kurs-header{
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media only screen and (max-width: 712px) {
+  body{
+    padding-top: 97px;
+  }
+  .header{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  }
+ .header_list{
+  display: none !important;
+  position: fixed;
+  top: 97px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d38b8b;
+  z-index: 9;
+  justify-content: center;
+  flex-direction: column;
+ } 
+ .header_burger{
+  display: block !important;
+ }
+}
+
+@media only screen and (max-width: 520px){
+  .footer_help{
+    
+    display:  block !important;
+  }
+  .footer_wrapper{
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center !important;
+
+  }
+}
+
+@media only screen and (max-width: 468px){
+  .make_kurs-item-text{
+    width: 100% !important;
+  }
+}
+
+.flex{
+  display: flex !important;
+  
+ 
+
+}
+
+.header_burger{
+  max-width: 25px;
+  
+display: none;
+}
+
+.header_burger-span{
+ width: 35px;
+ height: 3px;
+display: flex;
+background: #000;
+margin-top: 9px;
+align-items: center;
+display: flex;
+}
+
+.header {
+  padding: 25px 0px;
+  background-color: #2e2d2d;
+  color: #9c9999;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_wrapper-name {
+  display: flex;
+}
+
+.header-name {
+  font-size: 40px;
+}
+
+.header_list {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.header_item {
+  font-size: 20px;
+  color: #b3b3b3;
+}
+
+.main {
+  background-color: #d38b8b;
+  padding: 45px 0px;
+}
+
+.make_info {
+}
+
+.make_info-text {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.make_info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+.make_info-header {
+  width: 650px;
+  line-height: 38px;
+}
+
+.make_info-span {
+  display: flex;
+  justify-content: center;
+}
+
+.make_info-span {
+  display: flex;
+  background-color: #2e2d2d;
+  width: 100%;
+  height: 2px;
+}
+
+.make_kurs {
+  padding: 25px 0px;
+}
+
+.make_kust-wrapper {
+}
+
+.make_kurs-header {
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+.make_kurs-list {
+}
+
+.make_kurs-item {
+  display: flex;
+  padding: 25px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.make_kurs-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.make_kurs-header-text {
+  font-size: 32px;
+  width: 600px;
+}
+
+.make_kurs-item-text {
+  width: 600px;
+  line-height: 32px;
+  font-size: 21px;
+}
+
+.make_kurs_btn {
+  background-color: #2e2d2d;
+  color: #fff;
+  padding: 15px 10px;
+  border-radius: 9%;
+}
+
+.footer {
+  background-color: #2e2d2d;
+  padding: 35px 0px;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_help {
+  color: #444444;
+}
